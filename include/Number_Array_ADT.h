@@ -21,3 +21,13 @@ public:
     void print() const;
 
 };
+
+/*
+    CLASS INVARIANT:
+    - size > 0
+    - data points to a valid dynamic array of doubles of length size.
+    - Valid indices range from 0 to size -1.
+
+*/
+
+#endif
