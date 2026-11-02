@@ -34,3 +34,38 @@ double NumberArrayADT::getNumber(int index) const {
     return 0.0;
 }
 
+double NumberArray::getMin() const {
+    if (size <= 0) return 0.0;
+    double minVal = data[0];
+    for (int i = 1; i < size; i++){
+        if (data[i] < minVal) minVal = data[i];
+    }
+    return minVal;
+}
+
+double NumberArrayADT::getMax() const {
+    if (size <= 0) return 0.0;
+    double maxVal = data[0];
+    for(int i = 1; i < size; i++) {
+        if (data[i] > maxVal) mazVal = data[i]; 
+    }
+    return maxVal;
+}
+
+double NumberArrayADT::getAverage() const {
+    if (size <= 0) return 0.0;
+    double sum = 0.0;
+    for (int i = 0; i < size; i++) {
+        sum += data[i];
+    }
+    return sum / size;
+}
+
+void NumberArrayADT::print() const {
+    std::cout << "Array: [ ";
+    for (int i = 0; i < size; i++){
+        std::cout << data[i] << " ";
+    }
+    std::cout << "]" << std::endl;
+}
+
