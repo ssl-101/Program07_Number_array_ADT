@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/build",
+  "command": "/usr/bin/clang++ -I/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Program07_Number_array_ADT.dir/src/main.cpp.o -c /Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/src/main.cpp",
+  "file": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/src/main.cpp",
+  "output": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/build/CMakeFiles/Program07_Number_array_ADT.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/build",
+  "command": "/usr/bin/clang++ -I/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Program07_Number_array_ADT.dir/src/NumberArrayADT.cpp.o -c /Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/src/NumberArrayADT.cpp",
+  "file": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/src/NumberArrayADT.cpp",
+  "output": "/Users/sihamlee/Documents/CSC222/Program07_Number_array_ADT/build/CMakeFiles/Program07_Number_array_ADT.dir/src/NumberArrayADT.cpp.o"
+}
+]

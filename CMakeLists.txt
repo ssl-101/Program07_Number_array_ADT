@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 # 1. ONLY CHANGE THIS LINE FOR NEW PROJECTS
-project(Program07_Number_Array LANGUAGES CXX)
+project(Program07_Number_array_ADT LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -11,8 +11,8 @@ include_directories(include)
 
 # 3. List all .cpp source files under a single add_executable command
 add_executable(${PROJECT_NAME}
-    main.cpp
-    NumberArrayADT.cpp
+    src/main.cpp
+    src/NumberArrayADT.cpp
 )
 
 # 4. This also automatically updates
